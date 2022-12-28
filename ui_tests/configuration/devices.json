@@ -1,0 +1,208 @@
+{
+  "Nexus_6 Emulator Selenoid": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Nexus_6"
+  },
+  "HUAWEI real Selenoid": {
+    "isMobile": "True",
+    "platformName": "Android",
+    "udid": "AQH7N18A10001699",
+    "NameDevice": "HUAWEI real"
+  },
+  "iPhone Xs Max Emulator Selenoid": {
+    "platformName": "iOS",
+    "platformVersion": "12.4",
+    "udid": "BE940E5A-C4C9-4B06-B4CD-185ADF44356C",
+    "isMobile": "True",
+    "NameDevice": "iPhone Xs Max emulator"
+  },
+  "iPhone Ipad real Selenoid": {
+    "platformName": "iOS",
+    "platformVersion": "12.0.1",
+    "udid": "8756fa8586f90c48d050a463c03d666b12955d09",
+    "isTablet": "True",
+    "NameDevice": "iPhone Ipad rel"
+  },
+  "iPhone 13 Simulator Cloud": {
+    "platformName": "iOS",
+    "isMobile": "True",
+    "browserName": "Safari",
+    "deviceName": "iPhone 13 Simulator",
+    "name": "iPhone 13 Simulator",
+    "deviceOrientation": "portrait"
+  },
+  "iPhone 13 Pro Simulator Cloud": {
+    "platformName": "iOS",
+    "isMobile": "True",
+    "browserName": "Safari",
+    "deviceName": "iPhone 13 Pro Simulator",
+    "name": "iPhone 13 Pro Simulator",
+    "deviceOrientation": "portrait"
+  },
+  "iPhone 13 Pro Max Simulator Cloud": {
+    "platformName": "iOS",
+    "isMobile": "True",
+    "browserName": "Safari",
+    "deviceName": "iPhone 13 Pro Max Simulator",
+    "name": "iPhone 13 Pro Max Simulator",
+    "deviceOrientation": "portrait"
+  },
+  "iPhone 12 Pro Max Simulator Cloud": {
+    "platformName": "iOS",
+    "isMobile": "True",
+    "browserName": "Safari",
+    "deviceName": "iPhone 12 Pro Max Simulator",
+    "name": "iPhone 12 Pro Max Simulator",
+    "deviceOrientation": "portrait"
+  },
+  "iPhone SE (2nd generation) Simulator Cloud": {
+    "platformName": "iOS",
+    "isMobile": "True",
+    "browserName": "Safari",
+    "deviceName": "iPhone SE (2nd generation) Simulator",
+    "name": "iPhone SE (2nd generation) Simulator",
+    "deviceOrientation": "portrait"
+  },
+  "iPad Pro (12.9 inch) (5th generation) Simulator Cloud": {
+    "platformName": "iOS",
+    "isTablet": "True",
+    "NameDevice": "iPad Pro (12.9 inch) (5th generation) Simulator",
+    "name": "iPad Pro (12.9 inch) (5th generation) Simulator",
+    "browserName": "Safari",
+    "deviceName": "iPad Pro (12.9 inch) (5th generation) Simulator",
+    "deviceOrientation": "portrait"
+  },
+  "iPad Pro (11 inch) (3rd generation) Simulator Cloud": {
+    "platformName": "iOS",
+    "isTablet": "True",
+    "NameDevice": "iPad Pro (11 inch) (3rd generation) Simulator",
+    "name": "iPad Pro (11 inch) (3rd generation) Simulator",
+    "browserName": "Safari",
+    "deviceName": "iPad Pro (11 inch) (3rd generation) Simulator",
+    "deviceOrientation": "portrait"
+  },
+  "Android GoogleAPI Emulator Cloud": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Android GoogleAPI Emulator",
+    "name": "Android GoogleAPI Emulator",
+    "browserName": "Chrome",
+    "deviceName": "Android GoogleAPI Emulator",
+    "platformVersion": "11.0",
+    "deviceOrientation": "portrait"
+  },
+  "Google Pixel 3a GoogleAPI Emulator Cloud": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Google Pixel 3a GoogleAPI Emulator",
+    "name": "Google Pixel 3a GoogleAPI Emulator",
+    "browserName": "Chrome",
+    "platformVersion": "11.0",
+    "deviceName": "Google Pixel 3a GoogleAPI Emulator",
+    "deviceOrientation": "portrait"
+  },
+  "Google Pixel 3a XL GoogleAPI Emulator Cloud": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Google Pixel 3a XL GoogleAPI Emulator",
+    "name": "Google Pixel 3a XL GoogleAPI Emulator",
+    "browserName": "Chrome",
+    "platformVersion": "11.0",
+    "deviceName": "Google Pixel 3a XL GoogleAPI Emulator",
+    "deviceOrientation": "portrait"
+  },
+  "Samsung Galaxy S9 FHD GoogleAPI Emulator Cloud": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Samsung Galaxy S9 FHD GoogleAPI Emulator",
+    "name": "Samsung Galaxy S9 FHD GoogleAPI Emulator",
+    "browserName": "Chrome",
+    "platformVersion": "9.0",
+    "deviceName": "Samsung Galaxy S9 FHD GoogleAPI Emulator",
+    "deviceOrientation": "portrait"
+  },
+  "Samsung Galaxy S9 Plus HD GoogleAPI Emulator Cloud": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Samsung Galaxy S9 Plus HD GoogleAPI Emulator",
+    "name": "Samsung Galaxy S9 Plus HD GoogleAPI Emulator",
+    "browserName": "Chrome",
+    "platformVersion": "8.1",
+    "deviceName": "Samsung Galaxy S9 Plus HD GoogleAPI Emulator",
+    "deviceOrientation": "portrait"
+  },
+  "Samsung Galaxy Tab S3 GoogleAPI Emulator Cloud": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Samsung Galaxy Tab S3 GoogleAPI Emulator",
+    "name": "Samsung Galaxy Tab S3 GoogleAPI Emulator",
+    "browserName": "Chrome",
+    "platformVersion": "8.1",
+    "deviceName": "Samsung Galaxy Tab S3 GoogleAPI Emulator",
+    "deviceOrientation": "portrait"
+  },
+  "Samsung Galaxy Tab A 10 GoogleAPI Emulator Cloud": {
+    "platformName": "Android",
+    "isMobile": "True",
+    "NameDevice": "Samsung Galaxy Tab A 10 GoogleAPI Emulator",
+    "name": "Samsung Galaxy Tab A 10 GoogleAPI Emulator",
+    "browserName": "Chrome",
+    "platformVersion": "8.1",
+    "deviceName": "Samsung Galaxy Tab A 10 GoogleAPI Emulator",
+    "deviceOrientation": "portrait"
+  },
+  "chrome": {
+    "platformName": "chrome",
+    "automationName": "XCUITest",
+    "NameDevice": "Chrome Desktop browser Selenoid"
+  },
+  "firefox": {
+    "platformName": "firefox",
+    "NameDevice": "FireFox Desktop browser Selenooid"
+  },
+  "safari": {
+    "platformName": "safari",
+    "NameDevice": "Safari Desktop browser Selenooid"
+  },
+  "ie": {
+    "platformName": "ie",
+    "NameDevice": "Internet Explorer Desktop browser Selenoid"
+  },
+  "MicrosoftEdge": {
+    "platformName": "MicrosoftEdge",
+    "NameDevice": "Edge Desktop browser Selenoid"
+  },
+  "windows chrome Сloud": {
+    "browserName": "chrome",
+    "platformName": "Windows"
+  },
+  "windows ie Cloud": {
+    "browserName": "internet explorer",
+    "platformName": "Windows"
+  },
+  "windows edge Cloud": {
+    "browserName": "MicrosoftEdge",
+    "platformName": "Windows"
+  },
+  "windows firefox Cloud": {
+    "browserName": "firefox",
+    "platformName": "Windows"
+  },
+  "macOS safari Cloud": {
+    "browserName": "safari",
+    "platformName": "macOS"
+  },
+  "macOS chrome Cloud": {
+    "browserName": "chrome",
+    "platformName": "macOS"
+  },
+  "macOS firefox Cloud": {
+    "browserName": "firefox",
+    "platformName": "macOS"
+  },
+  "macOS edge Cloud": {
+    "browserName": "MicrosoftEdge",
+    "platformName": "macOS"
+  }
+}

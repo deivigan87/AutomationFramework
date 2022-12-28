@@ -1,0 +1,17 @@
+{
+   "status":"success",
+   "data":{
+      "masterBedrooms":1,
+      "guestsBedrooms":1,
+      "maleBedrooms":1,
+      "femaleBedrooms":0,
+      "plannedBedrooms":0,
+      "isMajlesAttached":true,
+      "isKitchenAttached":false,
+      "totalBedrooms":3,
+      "estimateHouseArea":396.031982,
+      "strEstimateHouseArea":"396",
+      "summaryTopText":"Based on your inputs, the following requirements were calculated for your house design:",
+      "customDesignSheetURL":"https://www.adha.gov.ae/MustasharakCustomDesign/3.xlsx"
+   }
+}

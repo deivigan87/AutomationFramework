@@ -1,0 +1,4 @@
+{
+   "status":"success",
+   "data":"The eligible loan amount calculated based on data related to income and the number of dependent family members entered by the user, resulting to a hypothetical value of loan amount. Therefore decision should not be made upon this calculation as the value may vary depending on the approval date."
+}

@@ -1,0 +1,12 @@
+{
+   "status":"success",
+   "data":{
+      "amount":1250000,
+      "exemption":250000,
+      "amountAfterExemption":1000000,
+      "monthlyRepayment":0,
+      "repaymentDurationMonths":0,
+      "repaymentDurationYears":0,
+      "strDuration":"Deferred payment"
+   }
+}

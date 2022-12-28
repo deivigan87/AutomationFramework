@@ -1,0 +1,35 @@
+{
+   "status":"success",
+   "data":[
+      {
+         "textType":1,
+         "text":"<div class=\"ExternalClass51890DA6E47C431799758D9A146BC43C\"><strong>Welcome to Mustasharak</strong></div><div class=\"ExternalClass51890DA6E47C431799758D9A146BC43C\">You technical support to move forward and build your own house</div><div class=\"ExternalClass51890DA6E47C431799758D9A146BC43C\"><br>Main goals&#58;</div><ul><li><div class=\"ExternalClass51890DA6E47C431799758D9A146BC43C\">This application will provide you with unique experience helping you plan your dream home requirements</div></li><li><div class=\"ExternalClass51890DA6E47C431799758D9A146BC43C\">The application provides you with many options based on your requirements within Bayti designs otherwise full guidance to start with house design</div></li></ul><p>The following questions will help determine your requirements and provide the necessary help.<br> <br>Mustasharak is a free technical advice from Abu Dhabi Housing Authority. The citizen has the sole discretion to use or ignore it. Abu Dhabi Housing Authority does not hold any liability and is not part of any agreement with the owner, contractor nor the consultant</p>",
+         "channel":2,
+         "version":"1"
+      },
+      {
+         "textType":2,
+         "text":"<div class=\"ExternalClass1530EF972FA04F9994E1449F32EB942A\"><p> \n      <strong>Determine the appropriate housing requirements / components</strong><br><br> The citizen should determine his or her needs and desires in the components and size of the dwelling (current and future) in terms of the number of rooms, halls, Majlis and external annexes/buildings (ancillary buildings) so that the estimated cost of implementing this design is within the approved loan.<br><br><strong>To know how to choose a design and supervision consultant and review the proposed design and specs please review the citizens Manual in the below link</strong></p> \n   <a href=\"https&#58;//www.adha.aehttps://stageWebsite.adha.gov.ae/Documents/CitizensManual.pdf\" target=\"_blank\" style=\"text-decoration&#58;none;\"> \n      <div style=\"background-color&#58;#646464;height&#58;50px;width&#58;96%;text-align&#58;center;vertical-align&#58;middle;line-height&#58;50px;color&#58;#ffffff;margin&#58;2%;\"> Citizens Manual </div> </a>\n   <br>&#160;<br>Your house estimated area&#160;is \n   <span style=\"color&#58;red;\">\n      <strong>&#123;0&#125;</strong></span><strong> </strong>\n   <strong>m²</strong>. You may compare this area with the area provided by your consultant<br><br>You can see the detailed minimum&#160;required spaces and room’s areas and amend them&#160;from the file in the following link<br><br><a href=\"{1}\" target=\"_blank\" style=\"text-decoration&#58;none;\"> \n      <div style=\"background-color&#58;#646464;height&#58;50px;width&#58;96%;text-align&#58;center;vertical-align&#58;middle;line-height&#58;50px;color&#58;#ffffff;margin&#58;2%;\"> Villa calculator Link </div> </a> \n   <br> \n   <br></div>",
+         "channel":2,
+         "version":"1"
+      },
+      {
+         "textType":3,
+         "text":"<div class=\"ExternalClassF4F0A784125E4C7A946CD0148E40ABE0\"><p>There are no bayti designs matching your requirements, you can view all available Bayti designs through Bayti Website<br><br></p></div>",
+         "channel":2,
+         "version":"1"
+      },
+      {
+         "textType":4,
+         "text":"<div class=\"ExternalClass83D0C3A9B7B646D49ECFB9C5E5C9811E\"><p>Please select Bayti Designs or Private Consultant Design<br></p></div>",
+         "channel":2,
+         "version":"1"
+      },
+      {
+         "textType":5,
+         "text":"<div class=\"ExternalClass96BA8C5A1A3B44FA8D634B4E94A74C68\">\u200bWelcome to Mustasharak<br>Providing advice and support to build your dream home - free technical counsaltantion service for UAE citizens<br></div>",
+         "channel":2,
+         "version":"1"
+      }
+   ]
+}

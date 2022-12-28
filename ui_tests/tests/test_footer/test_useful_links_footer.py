@@ -1,0 +1,34 @@
+import allure
+import pytest
+import requests
+from hamcrest import assert_that
+
+from d14_base.data_reader import DataReader
+from d14_ui_framework.browser.browser import Browser
+from d14_ui_service_tests_templates.ui_tests.pages.footer.footer import Footer
+
+
+class TestUsefulLinks:
+    """Buy: Footer links under section useful links works correct: BUAH-6803"""
+
+    data = ["about_portal",
+            "disclaimer",
+            "accessibility",
+            "site_map",
+            "privacy_policy",
+            "copyright",
+            "terms"]
+
+    @pytest.mark.TC("T5145")
+    @pytest.mark.parametrize("page", data)
+    @pytest.mark.smoke
+    @pytest.mark.prod_health_check
+    def test_useful_links_footer(self, page):
+        with allure.step("Click {} link on footer".format(page)):
+            Footer().click_footer_lbl(page)
+
+        with allure.step("Verify {} url is opened".format(page)):
+            actual_url = Browser.get_url()
+            assert_that(DataReader().get_test_data("Footer links.{}".format(page)) in actual_url,
+                        "Opened page with another url: {}".format(actual_url))
+            assert_that(requests.get(actual_url).status_code == 200, "Status Code answer is bad")

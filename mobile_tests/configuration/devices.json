@@ -1,0 +1,95 @@
+{
+  "Nexus 5X Emulator": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Nexus 5X",
+      "avd": "Nexus_5X"
+    }
+  },
+  "Nexus 6": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Nexus 6",
+      "avd": "Nexus_6"
+    }
+  },
+  "Pixel_2_XL": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Pixel_2_XL",
+      "avd": "Pixel_2_XL"
+    }
+  },
+  "Nexus 5X Emulator 2": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Nexus 5X2",
+      "avd": "Nexus_5X2"
+    }
+  },
+  "Galaxy 10 plus": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Galaxy 10",
+      "udid": "R58M70RJ0FP"
+    }
+  },
+  "Galaxy 10 plus 2": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Galaxy 10",
+      "udid": "R58M70RK67Y"
+    }
+  },
+  "Samsung": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Samsung",
+      "udid": "33004861234155f9"
+    }
+  },
+  "Huawei": {
+    "capabilities": {
+      "platformName": "Android",
+      "deviceName": "Huawei",
+      "udid": "AQH7N18A10001699",
+      "automationName": "UiAutomator1"
+    }
+  },
+  "iPhone 6 real": {
+    "capabilities": {
+      "platformName": "iOS",
+      "udid": "8ca2b5bec1d2e5d461e50296ddcb2cff625680a0",
+      "deviceName": "iPhone 6"
+    }
+  },
+  "iPhone Xs real": {
+    "capabilities": {
+      "platformName": "iOS",
+      "deviceName": "iPhone Xs",
+      "udid": "00008020-0019198C1E90003A"
+    }
+  },
+  "iPhone 11 Pro Max": {
+    "capabilities": {
+      "platformName": "iOS",
+      "platformVersion": "14.3",
+      "deviceName": "iPhone 11 Pro Max"
+    }
+  },
+  "iPhone X": {
+    "capabilities": {
+      "platformName": "iOS",
+      "platformVersion": "12.2",
+      "deviceName": "iPhone X"
+    }
+  },
+  "iPad Real": {
+    "capabilities": {
+      "platformName": "iOS",
+      "platformVersion": "12.4.1",
+      "udid": "9023d16a0bd92e4b0bc31a1c8201386e3057856f",
+      "deviceName": "iPhone 6"
+    }
+  }
+}

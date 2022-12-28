@@ -1,0 +1,31 @@
+{
+  "SmartPassCredentials": {
+      "username_no_access": "persona.user8",
+      "password_no_access": "Sm@rtp@55",
+      "username_res":"persona.user65",
+      "password_res": "P@ssword123",
+      "username_sop1":"persona.user100",
+      "password_sop1": "P@ssword123",
+      "username_dashboard": "persona.user74",
+      "password_dashboard": "P@ssword123",
+      "username_no_license": "persona.user3",
+      "password_no_license": "Sm@rtp@55",
+      "user_issuance_individual": "persona.user6",
+      "password_issuance_individual": "Sm@rtp@55",
+      "user_no_properties": "persona.user5",
+      "password_no_properties": "Sm@rtp@5",
+      "user_business_disabled": "persona.user39",
+      "password_business_disabled": "Sm@rtp@55"
+  },
+  "UaePassCredentials": {
+      "emirates_id": "784198732046960"
+  },
+  "bill_payment": {
+      "eligible_user1": "persona.user51",
+      "eligible_pass1": "P@ssword123",
+      "eligible_user2": "persona.user73",
+      "eligible_pass2": "P@ssword123",
+      "eligible_user3": "persona.user6",
+      "eligible_pass3": "Sm@rtp@55"
+  }
+}

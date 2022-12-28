@@ -1,0 +1,12 @@
+{
+  "SmartPassCredentials": {
+      "username": "persona.user10",
+      "password": "Sm@rtp@55",
+      "username_res":"persona.user65",
+      "password_res": "P@ssword123",
+      "username_sop1":"persona.user100",
+      "password_sop1": "P@ssword123",
+      "username_dashboard": "persona.user3",
+      "password_dashboard": "Sm@rtp@55"
+  }
+}

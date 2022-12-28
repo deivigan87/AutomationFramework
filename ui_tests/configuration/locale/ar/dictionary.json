@@ -1,0 +1,27 @@
+{
+  "Home Page": {
+    "buy_a_home": "الإسكان",
+    "buy_tab": "شراء",
+    "rent_tab": "إيجار",
+    "build_tab": "بناء"
+  },
+  "Home Financing Page": {
+    "home_financing": "احصل على تمويل"
+  },
+  "Property Details Page": {
+    "price_txt": "درهم",
+    "studio": "ستوديو",
+    "property": "تفاصيل العقار",
+    "bedrooms": "Bedrooms",
+    "success": "تمت العملية بنجاح"
+  },
+  "Search Home Page": {
+    "search_for_a_home": "اختر منزل"
+  },
+  "UAE pass Page": {
+    "uae": "الدخول الهوية الاماراتية"
+  },
+  "Login Required Page": {
+    "login_required": "تسجيل الدخول"
+  }
+}

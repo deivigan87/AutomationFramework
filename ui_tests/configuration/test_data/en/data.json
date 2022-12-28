@@ -1,0 +1,44 @@
+{
+   "Navigation Items": {
+      "home search": "Search for a property",
+      "deed transfer": "Transfer home ownership",
+      "get home financing": "Get home financing",
+      "manage my property": "Manage my property",
+      "view ready made design": "View readymade designs",
+      "check eligibility": "Check eligibility for grants and loans",
+      "calculate loan amount": "Calculate loan amount",
+      "estimate home size": "Estimate home size",
+      "qasemati": "View my plot (Qasemati)",
+      "protect my property": "Protect my property"
+   },
+  "User Data": {
+      "login": "persona.user9",
+      "password": "Persona.user9"
+   },
+  "UAEPassword": {
+    "device_name": "Huawei",
+    "udid": "AQH7N18A10001699",
+    "pin": "1234",
+    "email": "dimit999d@gmail.com",
+    "emirates_id": "784198732046960"
+   },
+  "Footer links": {
+    "about_portal": "https://www.tamm.abudhabi/en/about-this-portal",
+    "disclaimer": "https://www.tamm.abudhabi/en/disclaimer",
+    "accessibility": "https://www.tamm.abudhabi/en/accessibility",
+    "site_map": "https://www.tamm.abudhabi/site-map",
+    "faq": "https://www.tamm.abudhabi/en/all-faqs#topfaqs_faqs_is_featured=true",
+    "talk_to_us": "https://www.tamm.abudhabi/login",
+    "media_centre": "https://www.tamm.abudhabi/en/media",
+    "twitter": "https://twitter.com/Abudhabi_tamm",
+    "twitter_mob": "https://mobile.twitter.com/Abudhabi_tamm",
+    "instagram": "https://www.instagram.com/abudhabi_tamm/",
+    "privacy_policy": "https://www.tamm.abudhabi/en/privacy-statement",
+    "copyright": "https://www.tamm.abudhabi/en/copyright",
+    "terms": "https://www.tamm.abudhabi/en/terms-and-conditions",
+    "expatriates": "https://www.tamm.abudhabi/en/aspects-of-life/HousingProperty/owning/RealEstateMarket/owning-properties-by-expatriates-in-abu-dhabi",
+    "real_estate": "https://www.tamm.abudhabi/en/aspects-of-life/HousingProperty/owning/RealEstateMarket/real-estate-boom-in-abu-dhabi",
+    "renting_properties": "https://www.tamm.abudhabi/en/aspects-of-life/HousingProperty/renting/leasecontracts/renting-properties-in-abu-dhabi",
+    "request_for_house": "https://www.tamm.abudhabi/en/aspects-of-life/benefits-for-emiratis/landhomeallocation/Loans"
+  }
+}

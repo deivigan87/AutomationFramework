@@ -1,0 +1,95 @@
+{
+  "UAEPassword": {
+    "device_name": "Huawei",
+    "udid": "AQH7N18A10001699",
+    "pin": "1234",
+    "email": "dimit999d@gmail.com"
+  },
+  "Cancel_water": {
+    "file_name": ".pdf",
+    "NumberOfRequiredFields": 2,
+    "remarks": "DOE Test cancel water",
+    "property_value": "12121",
+    "Technology":"Conventional (Fossil Fuel)",
+    "Sub_technology": "Co-generation",
+    "capacity": "200000",
+    "service_name": "Water Desalination"
+  },
+  "Modify_water": {
+    "service_name": "Water Desalination"
+  },
+ "URLS":
+  {
+    "issue_water_desalination" : "issuance-instant-license/water-desalination",
+    "digital_services" : "tamm.abudhabi/en/tamm-centers-services",
+    "home" : "tamm.abudhabi",
+    "smart_pass_info" : "smartpass.government.ae/index-en.html/how_to",
+    "issue_electricity_non_solar": "issuance-instant-license/electricity-generation",
+    "issue_waste_water": "issuance-instant-license/wastewater",
+    "issue_electricity_solar": "issuance-instant-license/solar-power",
+    "department_of_energy": "department-of-energy",
+    "cancel_waste_water": "manage-instant-license/wastewater/cancel"
+  },
+  "Issuance_services": {
+    "issuance_water_desalination": "Request to Issue Water Desalination Instant Licence (up to 2 million l/d)",
+    "issuance_electricity_generation": "Issue an Electricity Generation Instant Licence (Self-supply Purposes)",
+    "issuance_solar_power": "Issue an Instant Licence for Electricity Generation through Solar Energy Limited to Self-supply",
+    "issuance_waste_water": "Issue a Sewerage Services Instant Licence ( Self-supply Purposes)"
+  },
+ "Licence_details_page": {
+    "capacity_exceed": "10000000000",
+    "capacity_non_numeric": "test data",
+    "error_message_exceed": "Your capacity should not exceed 2000000.",
+    "error_message_non_numeric": "Only numerical digits allowed.",
+    "capacity": "20000",
+    "technology": "Conventional (Fossil Fuel)",
+    "sub_technology": "Co-generation"
+  },
+  "Property_selection": {
+    "first_property": "202000009879",
+    "second_property": "202000010275",
+    "contract_number1": "202000010819",
+    "contract_number2": "202000010840",
+    "invalid_property": "093456782342"
+  },
+  "Restriction": {
+    "restriction_message": "You cannot proceed further",
+    "alert_message": "The contract number you have entered is invalid."
+  },
+  "Request_success": {
+    "success_message": "Your request has been completed successfully."
+  },
+  "Profile_selection": {
+    "license_number": "CN-2975961",
+    "about_to_expire_license_number": "CN-2975947"
+  },
+  "Cancel_electricity": {
+    "file_name": ".pdf",
+    "NumberOfRequiredFields": 2,
+    "remarks": "DOE Test cancel electricity",
+    "property_value": "12121",
+    "Technology":"Conventional (Fossil Fuel)",
+    "Sub_technology": "Co-generation",
+    "capacity": "200000",
+    "service_name": "Electricity Generation by Solar Power"
+  },
+  "Cancel_waste_water": {
+    "file_name": ".pdf",
+    "NumberOfRequiredFields": 2,
+    "remarks": "DOE Test cancel electricity",
+    "property_value": "12121",
+    "Technology":"Conventional (Fossil Fuel)",
+    "Sub_technology": "Co-generation",
+    "capacity": "200000",
+    "service_name": "Collection, treatment, disposal of Wastewater"
+  },
+  "Modify_waste_water": {
+    "service_name": "Collection, treatment, disposal of Wastewater"
+  },
+  "Modify_electricity": {
+    "service_name": "Electricity Generation by Solar Power"
+  },
+  "Renew_electricity": {
+    "service_name": "Electricity Generation by Solar Power"
+  }
+}

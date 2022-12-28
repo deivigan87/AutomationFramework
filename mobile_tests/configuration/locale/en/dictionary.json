@@ -1,0 +1,129 @@
+{
+  "Intro Screen": {
+    "skip": "Skip"
+  },
+  "Menu": {
+    "aspects_of_life": "Aspects Of Life",
+    "co_create": "Co-create",
+    "news": "News",
+    "my_events": "My Events",
+    "abu_dhabi_government_entities": "Abu Dhabi Govt. Entities",
+    "about_abu_dhabi": "About Abu Dhabi",
+    "test_api_token": "Test API Token",
+    "about_tamm": "About TAMM",
+    "settings": "Settings",
+    "how_to_use": "How to use",
+    "logout": "Logout",
+    "arabic": "العربية"
+  },
+  "Login Screen": {
+    "select_language": "Select language",
+    "smart_pass": "smartPassBg",
+    "uae_pass": "uaePassBg",
+    "continue_guest": "Continue As Guest"
+  },
+  "Download Offline Map Screen": {
+    "download_offline_map": "Download Offline Map",
+    "cancel": "Cancel"
+  },
+  "Login Page Screen": {
+    "username": "Username",
+    "password": "Password",
+    "login": "Login"
+  },
+  "Tutorial Screen": {
+    "skip": "Skip"
+  },
+  "Updates Screen": {
+    "title": "Updates"
+  },
+  "Locker Screen": {
+    "title": "Locker",
+    "my_payments": "My Payments",
+    "my_subscriptions": "My Subscriptions",
+    "my_documents": "My Documents",
+    "my_events": "My Events",
+    "my_support": "My Support"
+  },
+  "Services Screen": {
+    "title": "Services",
+    "services_tab": "Services",
+    "journeys_tab": "Journeys",
+    "buy_a_home": "Buy a Home",
+    "show_more": "Show More",
+    "cancel_declaration":"Request for the Cancellation of a Customs Declaration",
+    "modify_declaration": "Request to Modify a Customs Declaration",
+    "issuance_water_desalination": "Request to Issue Water Desalination Instant Licence (up to 2 million l/d)",
+    "issuance_electricity" : "Request to Issue Electricity Generation (non-Solar) Instant Licence (up to 5MW)",
+    "issuance_solar" : "Request to Issue Electricity Generation through Solar Instant Licence (up to 50 kWp)",
+    "issuance_waste_water" : "Request to Issue Wastewater Collection, Treatment & Disposal Instant Licence (up to 100 thousand l/d)",
+    "cancel_electricity": "Revoke Electricity Generation Instant Licence",
+    "cancel_water_desalination": "Request to Revoke Water Desalination Instant Licence",
+    "cancel_waste_water": "Request to Revoke Wastewater Collection, Treatment & Disposal Instant Licence",
+    "modify_water_desalination": "Request to Modify Water Desalination Instant Licence",
+    "modify_electricity": "Request to Modify Electricity Generation Instant Licence",
+    "modify_waste_water": "Request to Modify Wastewater Collection, Treatment & Disposal Instant Licence",
+    "exemption_bankruptcy": "Request for Exemption in Case of Bankruptcy or Inability to Earn",
+    "exemption_death": "Request for Exemption in Case of Death",
+    "exemption_retirement": "Request for Retirement Exemption",
+    "exemption_living": "Request for Exemption in Case of Incapability of Making a Living",
+    "search": "search",
+    "bill_payment": "Water and Electricity Bill Payment"
+  },
+  "Pre services Screen": {
+    "start": "Start"
+  },
+  "Community Screen": {
+    "title": "Community"
+  },
+  "My Subscriptions Screen":{
+    "title": "My Subscriptions",
+    "add_subscription": "Add Subscription"
+  },
+  "New Subscription Screen": {
+    "etisalat_elife": "Etisalat",
+    "mawaqif": "Mawaqif"
+  },
+  "Packages Screen": {
+    "remove_package": "Remove Package",
+    "next": "Next"
+  },
+  "Package Details Screen": {
+    "select_package": "Select Package"
+  },
+  "Summary Screen": {
+    "title": "Summary",
+    "submit": "Submit"
+  },
+  "Subscription Successful Screen": {
+    "ok": "Ok",
+    "title": "Request submitted successfully"
+  },
+  "Feedback Screen": {
+    "title": "How was your experience?",
+    "submit": "Submit",
+    "happy_index": "1",
+    "normal_index": "2",
+    "sad_index": "3"
+  },
+  "Feedback Received Screen": {
+    "title": "We have received your feedback",
+    "ok": "Ok"
+  },
+  "Quick tip pop up": {
+    "quick_tip": "Quick Tip",
+    "ok": "OK"
+  },
+  "Main screen": {
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "ADU": {
+    "housing_and_property": "Housing & Property"
+  },
+  "ADU Search Services Screen": {
+    "utilities_and_maintenance": "Utilities and Maintenance",
+    "building_and_construction": "Building and Construction"
+  }
+}

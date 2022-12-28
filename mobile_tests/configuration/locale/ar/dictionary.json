@@ -1,0 +1,111 @@
+{
+  "Intro Screen": {
+    "skip": "تخطي"
+  },
+  "Menu": {
+    "aspects_of_life": "جوانب الحياة",
+    "co_create": "شارك حكومة أبوظبي",
+    "news": "أخبار",
+    "my_events": "فعالياتي",
+    "abu_dhabi_government_entities": "الجهات الحكومية في أبوظبي",
+    "about_abu_dhabi": "عن أبوظبي",
+    "test_api_token": "Test API Token",
+    "about_tamm": "عن تم",
+    "settings": "الإعدادات",
+    "how_to_use": "كيفية الإستخدام",
+    "logout": "تسجيل الخروج",
+    "english": "English"
+  },
+  "Login Screen": {
+    "select_language": "اللغة",
+    "smart_pass": " الدخول الذكي",
+    "uae_pass": "UAEPass LoginButton Green AR g",
+    "continue_guest": "Continue As Guest"
+  },
+  "Download Offline Map Screen": {
+    "download_offline_map": "تحميل الخريطة",
+    "cancel": "إلغاء"
+  },
+  "Login Page Screen": {
+    "username": "اسم المستخدم",
+    "password": " كلمة المرور",
+    "login": "دخول"
+  },
+  "Tutorial Screen": {
+    "skip": "تخطي"
+  },
+  "Updates Screen": {
+    "title": "إشعارات"
+  },
+  "Locker Screen": {
+    "title": "محفظتي",
+    "my_payments": "مدفوعاتي",
+    "my_subscriptions": "اشتراكاتي",
+    "my_documents": "وثائقي",
+    "my_events": "فعالياتي",
+    "my_support": "مركز الدعم"
+  },
+  "Services Screen": {
+    "title": "خدماتي",
+    "buy_a_home": "شراء منزل",
+    "show_more": "عرض المزيد",
+    "search": "search",
+    "bill_payment": "دفع فواتير المياه والكهرباء"
+  },
+  "Pre services Screen": {
+    "start": "ابدأ من"
+  },
+  "Community Screen": {
+    "title": "مجتمعي"
+  },
+  "My Subscriptions Screen": {
+    "title": "اشتراكاتي",
+    "add_subscription": "أضف اشتراك"
+  },
+  "New Subscription Screen": {
+    "etisalat_elife": "اتصالات",
+    "mawaqif": "مواقف"
+  },
+  "Packages Screen": {
+    "remove_package": "امسح الباقة",
+    "next": "التالي"
+  },
+  "Package Details Screen": {
+    "select_package": "اختر الباقة"
+  },
+  "Summary Screen": {
+    "title": "الملخص",
+    "submit": "أرسل"
+  },
+  "Subscription Successful Screen": {
+    "ok": "موافق",
+    "title": "تم ارسال الطلب بنجاح"
+  },
+  "Feedback Screen": {
+    "title": "كيف كانت تجربتك؟",
+    "submit": "متابعة",
+    "happy_index": "3",
+    "normal_index": "2",
+    "sad_index": "1"
+  },
+  "Feedback Received Screen": {
+    "title": "شكراً لك! سنعمل على تحسين الخدمة",
+    "ok": "موافق"
+  },
+  "Quick tip pop up": {
+    "quick_tip": "معلومة سريعة!",
+    "ok": "حسناً"
+  },
+  "Main screen": {
+    "language": "الأكثر استخدامًا",
+    "english": "English",
+    "arabic": "العربية"
+  },
+  "ADU": {
+    "housing_and_property": "Housing & Property"
+  },
+  "ADU Search Services Screen": {
+    "utilities_and_maintenance": "Utilities and Maintenance",
+    "building_and_construction": "Building and Construction"
+  }
+}

@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 120
+ignore = D100, D104, D101, D107, D102, D103, D400, D401, D202, D204, D205, D210, D209, D106
+per-file-ignores =
+    ui_tests/tests/bdd/* : F403, F401, D101, D107, D102, D103, D400, D401, D202, D204, D205, D210, D209, D106
+exclude = env, venv

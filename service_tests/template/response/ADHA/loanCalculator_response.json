@@ -1,0 +1,35 @@
+{
+   "status":"success",
+   "data":[
+      {
+         "typeID":1,
+         "typeTitle":"Construction Loan",
+         "impNote":"None"
+      },
+      {
+         "typeID":2,
+         "typeTitle":"Ready-made Houses Purchase Loan",
+         "impNote":"None"
+      },
+      {
+         "typeID":3,
+         "typeTitle":"Demolition and Reconstruction Loan",
+         "impNote":"None"
+      },
+      {
+         "typeID":4,
+         "typeTitle":"Expansion/Addition Loan",
+         "impNote":"None"
+      },
+      {
+         "typeID":5,
+         "typeTitle":"Maintenance Loan",
+         "impNote":"None"
+      },
+      {
+         "typeID":6,
+         "typeTitle":"House Maintenance and Expansion Loan",
+         "impNote":"None"
+      }
+   ]
+}

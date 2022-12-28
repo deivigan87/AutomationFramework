@@ -1,0 +1,96 @@
+{
+  "UAEPassword": {
+    "device_name": "Huawei",
+    "udid": "AQH7N18A10001699",
+    "pin": "1234",
+    "email": "dimit999d@gmail.com"
+  },
+  "Cancel_water": {
+    "file_name": ".pdf",
+    "NumberOfRequiredFields": 2,
+    "remarks": "DOE Test cancel water",
+    "property_value": "12121",
+     "technology": "تقليدية (الوقود الأحفوري)",
+    "sub_technology": "تقنية التبخير الوميضي (MSF)",
+    "capacity": "2000",
+    "service_name": "تحلية المياه"
+  },
+  "Modify_water": {
+    "service_name": "تحلية المياه"
+  },
+ "URLS":
+  {
+    "issue_water_desalination" : "issuance-instant-license/water-desalination",
+    "digital_services" : "tamm.abudhabi/en/tamm-centers-services",
+    "home" : "tamm.abudhabi",
+    "smart_pass_info" : "smartpass.government.ae/index-en.html/how_to",
+    "issue_electricity_non_solar": "issuance-instant-license/electricity-generation",
+    "issue_waste_water": "issuance-instant-license/wastewater",
+    "issue_electricity_solar": "issuance-instant-license/solar-power",
+    "department_of_energy": "department-of-energy",
+    "cancel_waste_water": "manage-instant-license/wastewater/cancel"
+
+  },
+  "Issuance_services": {
+    "issuance_water_desalination": "طلب إصدار ترخيص فوري لإنتاج و تحلية المياه (لايتعدى 2 مليون لتر/يومياً )",
+    "issuance_electricity_generation":"إصدار رخصة فورية لتوليد الكهرباء لغرض التزويد الذاتي",
+    "issuance_solar_power":"اصدار رخصة فورية لتوليد الكهرباء بواسطة الطاقة الشمسية لغرض التزويد الذاتي",
+    "issuance_waste_water": "إصدار رخصة فورية لخدمات الصرف الصحي لغرض التزويد الذاتي"
+  },
+  "Licence_details_page": {
+    "capacity_exceed": "10000000000",
+    "capacity_non_numeric": "بيانات الاختبار",
+    "error_message_exceed": "يرجى عدم تجاوز السعة المسموح بها في الترخيص الخاص بك 200000",
+    "error_message_non_numeric": "مسموح بإدخال أرقام فقط.",
+    "capacity": "200000",
+    "technology": "تقليدية (الوقود الأحفوري)",
+    "sub_technology": "التوليد المشترك"
+  },
+  "Property_selection": {
+    "first_property": "202000009879",
+    "second_property": "202000010275",
+    "contract_number1": "202000010819",
+    "contract_number2": "202000010840",
+    "invalid_property": "093456782342"
+  },
+  "Restriction": {
+    "restriction_message": "عذراً لا يمكنك استكمال الطلب",
+    "alert_message": "رقم العقد الذي قمت بإدخاله غير صحيح."
+  },
+   "Request_success": {
+    "success_message": "تم تقديم الطلب بنجاح"
+  },
+  "Profile_selection": {
+    "license_number": "CN-2975961",
+    "about_to_expire_license_number": "CN-2975947"
+  },
+  "Cancel_electricity": {
+    "file_name": ".pdf",
+    "NumberOfRequiredFields": 2,
+    "remarks": "DOE Test cancel electricity",
+    "property_value": "12121",
+    "Technology":"Conventional (Fossil Fuel)",
+    "Sub_technology": "Co-generation",
+    "capacity": "200000",
+    "service_name": "توليد الكهرباء بواسطة الطاقة الشمسية"
+  },
+  "Cancel_waste_water": {
+    "file_name": ".pdf",
+    "NumberOfRequiredFields": 2,
+    "remarks": "DOE Test cancel electricity",
+    "property_value": "12121",
+    "Technology":"Conventional (Fossil Fuel)",
+    "Sub_technology": "Co-generation",
+    "capacity": "200000",
+    "service_name": "تجميع ومعالجة والتخلص من مياه الصرف الصحي"
+  },
+  "Modify_waste_water": {
+    "service_name": "تجميع ومعالجة والتخلص من مياه الصرف الصحي"
+  },
+  "Modify_electricity": {
+    "service_name": "توليد الكهرباء بواسطة الطاقة الشمسية"
+  },
+  "Renew_electricity": {
+    "service_name": "توليد الكهرباء بواسطة الطاقة الشمسية"
+  }
+}

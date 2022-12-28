@@ -1,0 +1,115 @@
+variables:
+  PREFIX: tamm-app
+  THREAD_COUNT: 1
+  REPEAT_COUNT: 1
+  THREAD_COUNT_SERVICE: 1
+  REPEAT_COUNT_SERVICE: 1
+  UI_TEST_PATH: ui_tests/tests/
+  SERVICE_TEST_PATH: service_tests/test_suite/test_case_api_journey/
+
+stages:
+  - auto
+  - lint
+
+auto-ui:
+  except:
+    - pushes
+    - merge_requests
+
+  stage: auto
+  script:
+    - export PIP_INDEX_URL=https://qa:$pip_qa_token@pip.tamm.abudhabi/qa/automation-frameworks/+simple/
+    - export ALLURE_RESULTS_PATH=$(pwd)/allure-results
+    - python3 -m venv env
+    - source ./env/bin/activate
+    - pip3 install --timeout 1000 d14-qa-automation-framework -U
+    - "[ -f ./requirements.txt ] && pip3 install -r requirements.txt"
+    - export GET_PLATFORM_NAME_UTIL_PATH=$(find . -name test_get_platform_name.py | head -1)
+    - cp $GET_PLATFORM_NAME_UTIL_PATH $UI_TEST_PATH
+    - cd $UI_TEST_PATH
+    - pytest test_get_platform_name.py --cache-clear --noconftest
+    - rm test_get_platform_name.py
+    - export PLATFORM=$(cat platform.txt)
+    - if [ "$MARKS" != "" ]; then export MARKS="-m $MARKS"; else export MARKS=""; fi
+    - if [ "$RP_INIT" == True ]; then export RP_INIT="--reportportal"; else export RP_INIT=""; fi
+    - if [ "$RP_ENDPOINT" != "" ]; then export RP_ENDPOINT="-o rp_endpoint=$RP_ENDPOINT"; else export RP_ENDPOINT=""; fi
+    - if [ "$RP_PROJECT" != "" ]; then export RP_PROJECT="-o rp_project=$RP_PROJECT"; else export RP_PROJECT=""; fi
+    - if [ "$RP_UI_LAUNCH" != "" ]; then export RP_UI_LAUNCH="-o rp_launch=$RP_UI_LAUNCH"; else export RP_UI_LAUNCH=""; fi
+    - if [ "$RP_TOKEN" != "" ]; then export RP_TOKEN="-o rp_uuid=$RP_TOKEN"; else export RP_TOKEN=""; fi
+    - if [ "$RP_LAUNCH_ATR" != "" ]; then export RP_LAUNCH_ATR="-o rp_launch_attributes=platform:$PLATFORM"; else export RP_LAUNCH_ATR=""; fi
+
+    - pytest . --cache-clear -n $THREAD_COUNT --count $REPEAT_COUNT --alluredir=$ALLURE_RESULTS_PATH $MARKS $RP_INIT $RP_ENDPOINT $RP_PROJECT $RP_UI_LAUNCH $RP_TOKEN $RP_LAUNCH_ATR
+  after_script:
+    - allure generate
+    - export ALLURE_UPDATER_PATH=$(find . -name html_allure_report_updater.py | head -1)
+    - python3 $ALLURE_UPDATER_PATH $(pwd)/allure-report
+    - zip -r ui_report.zip ./allure-report
+    - git add ./ui_tests/configuration/test_data/styles_data.json
+    - git config --global user.email "gitlabci@tamm.abudhabi"
+    - git config --global user.name "GitLab CI"
+    - git commit -m "added new styles-file"
+    - git push "https://qa_ci_token:$qa_ci_token@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}"
+  artifacts:
+      when: always
+      expire_in: 1 week
+      paths:
+        - ./ui_report.zip
+        - ./ui_tests/tests/Accessibility_report.xlsx
+        - ./ui_tests/tests/Benchmark_Testing.csv
+        - ./ui_tests/tests/*-Benchmark_Testing-*.xlsx
+  tags:
+    - tamm-ui-runner
+
+auto-services:
+  except:
+    - pushes
+    - merge_requests
+
+  stage: auto
+  script:
+    - export PIP_INDEX_URL=https://qa:$pip_qa_token@pip.tamm.abudhabi/qa/automation-frameworks/+simple/
+    - export ALLURE_RESULTS_PATH=$(pwd)/allure-results
+    - if [ "$MARKS_SERVICE" != "" ]; then export MARKS_SERVICE="-m $MARKS_SERVICE"; else export MARKS_SERVICE=""; fi
+    - if [ "$RP_INIT" == True ]; then export RP_INIT="--reportportal"; else export RP_INIT=""; fi
+    - if [ "$RP_ENDPOINT" != "" ]; then export RP_ENDPOINT="-o rp_endpoint=$RP_ENDPOINT"; else export RP_ENDPOINT=""; fi
+    - if [ "$RP_PROJECT" != "" ]; then export RP_PROJECT="-o rp_project=$RP_PROJECT"; else export RP_PROJECT=""; fi
+    - if [ "$RP_SERVICE_LAUNCH" != "" ]; then export RP_SERVICE_LAUNCH="-o rp_launch=$RP_SERVICE_LAUNCH"; else export RP_SERVICE_LAUNCH=""; fi
+    - if [ "$RP_TOKEN" != "" ]; then export RP_TOKEN="-o rp_uuid=$RP_TOKEN"; else export RP_TOKEN=""; fi
+
+    - python3 -m venv env
+    - source ./env/bin/activate
+    - pip3 install --timeout 1000 d14-qa-automation-framework -U
+    - "[ -f ./requirements.txt ] && pip3 install -r requirements.txt"
+    - cd $SERVICE_TEST_PATH
+    - pytest . --cache-clear -n $THREAD_COUNT_SERVICE --count $REPEAT_COUNT_SERVICE --alluredir=$ALLURE_RESULTS_PATH $MARKS_SERVICE $RP_INIT $RP_ENDPOINT $RP_PROJECT $RP_SERVICE_LAUNCH $RP_TOKEN
+  after_script:
+    - allure generate
+    - export ALLURE_UPDATER_PATH=$(find . -name html_allure_report_updater.py | head -1)
+    - python3 $ALLURE_UPDATER_PATH $(pwd)/allure-report
+    - zip -r service_report.zip ./allure-report
+  artifacts:
+    when: always
+    expire_in: 1 week
+    name: "service_report"
+    paths:
+      - ./service_report.zip
+      - ./service_tests/test_suite/responses.csv
+      - ./service_tests/test_suite/responses-*.xlsx
+  tags:
+    - tamm-ui-stage
+
+flake:
+  only:
+    - merge_requests
+
+  stage: lint
+  script:
+    - export PIP_INDEX_URL=https://qa:$pip_qa_token@pip.tamm.abudhabi/qa/automation-frameworks/+simple/
+    - export ALLURE_RESULTS_PATH=$(pwd)/allure-results
+    - python3 -m venv env
+    - source ./env/bin/activate
+    - pip3 install --timeout 1000 d14-qa-automation-framework -U
+    - "[ -f ./requirements.txt ] && pip3 install -r requirements.txt"
+    - flake8 .
+  tags:
+    - tamm-ui-runner

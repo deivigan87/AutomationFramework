@@ -1,0 +1,39 @@
+{
+  "Home Page": {
+    "buy_a_home": "Housing",
+    "buy_tab": "BUY",
+    "rent_tab": "RENT",
+    "build_tab": "BUILD"
+  },
+  "Home Financing Page": {
+    "home_financing": "Home Financing"
+  },
+  "Property Details Page": {
+    "price_txt": "AED",
+    "studio": "Studio",
+    "property": "Property details",
+    "bedrooms": "Bedrooms",
+    "success": "Success"
+  },
+  "Search Home Page": {
+    "search_for_a_home": "Search for a property"
+  },
+  "Footer": {
+    "about_portal": "About this Portal",
+    "disclaimer": "Disclaimer",
+    "accessibility": "Accessibility",
+    "site_map": "Site Map",
+    "faq": "Frequently Asked Questions",
+    "talk_to_us": "Talk to Us",
+    "media_centre": "Media Centre",
+    "privacy_policy": "Privacy Policy",
+    "copyright": "Copyright",
+    "terms": "Terms"
+  },
+  "UAE pass Page": {
+    "uae": "UAE"
+  },
+  "Login Required Page": {
+    "login_required": "Login Required"
+  }
+}
